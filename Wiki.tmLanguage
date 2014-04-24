@@ -20,9 +20,9 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Match WikiWords and make them into links.</string>
+			<string>Match WikiWords - AS WORDS BETWEEN [[ ]] - and make them into links.</string>
 			<key>match</key>
-			<string>([A-Z][a-z]+){2,}</string>
+			<string>\s\[{2}(.*?)\]{2}\s</string>
 			<key>name</key>
 			<string>string.markup.underline.link.internal.Wiki</string>
 		</dict>		
